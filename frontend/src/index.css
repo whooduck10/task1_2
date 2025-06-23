@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 20px;
+}
+
+#root {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product-page {
+  max-width: 400px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  display: block;
+  margin: 8px 0;
+  padding: 6px 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
