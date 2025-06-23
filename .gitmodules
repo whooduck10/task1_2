@@ -1,0 +1,3 @@
+[submodule "task1_2-frontend"]
+	path = task1_2-frontend
+	url = https://github.com/whooduck10/task1_2-frontend.git
